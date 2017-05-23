@@ -133,7 +133,7 @@ def Bad_Function():
     if debug != 'true':
         dialog.ok('SET DEBUG TO TRUE','Go into your add-on settings and set debug mode to True then run this again. If debug is set to true we have proper error reporting in place to help your add-on development.')
         koding.Open_Settings(focus='1.1')
-    xbmc.log(this_should_error)
+    xbmc.log(this_should_error,2)
 #-----------------------------
 @route(mode='testing', args=["my_text","my_desc"])
 def Testing(my_text,my_desc):
