@@ -28,6 +28,7 @@
     are added here. You'll see a handful of the more common imports below.
 """
 import os           # access operating system commands
+import sys          # variables and functions exposed by the python interpreter
 import urlparse     # splits up the directory path - much easier importing this than coding it up ourselves
 import xbmc         # the base xbmc functions, pretty much every add-on is going to need at least one function from here
 import xbmcaddon    # pull addon specific information such as settings, id, fanart etc.
