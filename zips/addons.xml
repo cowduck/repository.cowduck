@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-<addon id="plugin.video.cxtest" name="Cowduck Video Test Zone" version="0.0.1" provider-name="cowduck">
+<addon id="plugin.video.cxtest" name="Cowduck Express" version="0.0.2" provider-name="cowduck">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="script.module.nanscrapers" version="0.5.5" />
@@ -22,8 +22,8 @@
 	</extension>
 </addon>
 
-<addon id="repository.cowduck" name="Cow Duck" version="0.0.1" provider-name="cowduck">
-	<extension point="xbmc.addon.repository" name="Cow Duck">
+<addon id="repository.cowduck" name="Cowduck Add-on Repository" version="0.0.2" provider-name="cowduck">
+	<extension point="xbmc.addon.repository" name="Cowduck Add-on Repository">
 		<dir>
 			<info compressed="false">https://offshoregit.com/tvaresolvers/tva-common-repository/raw/master/addons.xml</info>
 			<checksum>https://offshoregit.com/tvaresolvers/tva-common-repository/raw/master/addons.xml.md5</checksum>
@@ -39,8 +39,8 @@
 		<datadir zip="true">https://raw.githubusercontent.com/cowduck/repository.cowduck/master/zips/</datadir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
-		<summary lang="en">This is the place.</summary>
-		<description lang="en">If it ain't got the muh, it'll never have the qua.</description>
+		<summary lang="en">This is NOT the place.</summary>
+		<description lang="en">Like my daddy always told me ... If it ain't got the muh, it'll never have the qua.</description>
 		<genre>devtools,howto,tech</genre>
 	</extension>
 </addon>
